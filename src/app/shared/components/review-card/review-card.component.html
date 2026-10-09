@@ -1,0 +1,17 @@
+<article class="review">
+  <header>
+    <strong>{{ review.author }}</strong>
+    <app-star-rating [rating]="review.rating" [showValue]="false" />
+    <time [dateTime]="review.date">{{ review.date | date: 'mediumDate' }}</time>
+  </header>
+  <p>{{ review.text }}</p>
+  @if (review.ownerResponse) {
+    <footer class="owner-reply">
+      <strong>Response from the owner</strong>
+      @if (review.ownerResponseDate) {
+        <time [dateTime]="review.ownerResponseDate">{{ review.ownerResponseDate | date: 'mediumDate' }}</time>
+      }
+      <p>{{ review.ownerResponse }}</p>
+    </footer>
+  }
+</article>

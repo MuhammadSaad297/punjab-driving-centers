@@ -1,0 +1,391 @@
+{
+  "centerId": "pdc-001",
+  "googleReviewCount": 654,
+  "averageRating": 4.7,
+  "reviews": [
+    {
+      "id": "g-001",
+      "author": "Ayesha Munawer",
+      "rating": 5,
+      "date": "2026-07-08",
+      "featured": true,
+      "text": "I had a great experience learning automatic car driving at Punjab Driving Center. The instructors were calm, clear, and helped me feel comfortable on busy roads.",
+      "highlights": ["automatic"],
+      "ownerResponse": "Thanks sir for this precious review",
+      "ownerResponseDate": "2026-08-01"
+    },
+    {
+      "id": "g-002",
+      "author": "Shmran Ali",
+      "rating": 5,
+      "date": "2026-08-10",
+      "featured": true,
+      "text": "I had a great experience learning to drive at Punjab Driving Center. A special thanks to Instructor Zain for his patience, professionalism, and excellent teaching skills. He explained everything clearly and helped me build confidence behind the wheel.",
+      "highlights": ["Instructor Zain"],
+      "ownerResponse": "Thanks sir for this precious review",
+      "ownerResponseDate": "2026-09-01"
+    },
+    {
+      "id": "g-003",
+      "author": "Ashfaq Hussain",
+      "rating": 5,
+      "date": "2026-02-12",
+      "featured": true,
+      "text": "I have completed my 10 days automatic car lessons with Madam Hadia from Punjab Driving School. She is an exceptional driving instructor who truly prioritizes her students' safety and progress."
+    },
+    {
+      "id": "g-004",
+      "author": "Azba Butt",
+      "rating": 5,
+      "date": "2025-11-05",
+      "featured": true,
+      "text": "I recently completed a 10-day manual driving course at Punjab Driving Center, and I want to especially highlight the incredible support from my instructor Ms. Hadiya. She helped me overcome anxiety about driving in heavy traffic with patience and clear guidance."
+    },
+    {
+      "id": "g-005",
+      "author": "Irrem Latif",
+      "rating": 5,
+      "date": "2026-03-18",
+      "text": "I joined this driving school for learning driving. It was a very good experience. My instructor Mam Hadia taught me professionally with her competencies and expertise and encouraged me to overcome my fear of crazy traffic on the road."
+    },
+    {
+      "id": "g-006",
+      "author": "Aimen Kashif",
+      "rating": 5,
+      "date": "2026-01-20",
+      "featured": true,
+      "text": "I had such a good experience at Punjab Driving Centre. My instructor Hadia was calm, friendly, and super clear with instructions. I completed my driving training in just 10 days and feel fully prepared. Definitely recommend this centre for professional training in a short time."
+    },
+    {
+      "id": "g-007",
+      "author": "Hussain Ahmad",
+      "rating": 5,
+      "date": "2026-07-15",
+      "text": "Very cooperative faculty. Zain and Shahmeer taught me very well about driving. They made classes a fun experience."
+    },
+    {
+      "id": "g-008",
+      "author": "Tausif Asif",
+      "rating": 5,
+      "date": "2026-01-08",
+      "text": "I recently completed my 10 days driving class successfully. My instructor Miss Hadiya was very cooperative, calm and humble. She built my confidence to face heavy traffic and taught me how to drive smoothly. I am very thankful to her."
+    },
+    {
+      "id": "g-009",
+      "author": "Danish Ali",
+      "rating": 5,
+      "date": "2026-07-22",
+      "text": "Best driving center in Lahore — my experience is very good and I'm so happy with them."
+    },
+    {
+      "id": "g-010",
+      "author": "Noor Fatima",
+      "rating": 5,
+      "date": "2025-11-12",
+      "text": "I am currently taking my driving classes at Punjab Driving Center with Miss Hadia, and I've had a great experience so far. She is really patient, calm, and explains everything clearly. I can already see a big improvement in my driving."
+    },
+    {
+      "id": "g-011",
+      "author": "Aqsa Younas",
+      "rating": 5,
+      "date": "2025-10-01",
+      "text": "I had a wonderful experience learning driving from Madam Hadia. She is very kind, humble, and professional. She explains everything with patience, removes all fear, and builds confidence step by step."
+    },
+    {
+      "id": "g-012",
+      "author": "Abdul Ghafoor",
+      "rating": 5,
+      "date": "2025-09-14",
+      "text": "My experience at this driving school was fantastic! Moeed, my teacher, was professional, patient and well informed. He gave thorough explanations and gave me confidence when driving. I was able to rapidly enhance my skills because of his cool head and detailed instructions."
+    },
+    {
+      "id": "g-013",
+      "author": "A Sial",
+      "rating": 5,
+      "date": "2025-11-20",
+      "text": "Respected Hadia — your calm guidance and clear instructions made learning to drive a truly empowering experience. I always felt safe, supported, and confident behind the wheel because of your patience and professionalism."
+    },
+    {
+      "id": "g-014",
+      "author": "Z",
+      "rating": 5,
+      "date": "2025-08-30",
+      "text": "Miss Hadiya really is an amazing teacher! I'm highly satisfied with her methods and would thoroughly recommend her to all new learners. Her calm demeanor, positive attitude, and professionalism really helped me gain confidence."
+    },
+    {
+      "id": "g-015",
+      "author": "Muhammad Yasir Mumtaz",
+      "rating": 5,
+      "date": "2025-10-18",
+      "featured": true,
+      "text": "I had a wonderful experience with Punjab Driving Center! The instructors are extremely professional, punctual, and dedicated. I took lessons with Miss Hadia, and she made learning so easy and comfortable."
+    },
+    {
+      "id": "g-016",
+      "author": "Laraib Sial",
+      "rating": 5,
+      "date": "2025-11-08",
+      "text": "Very good experience with Ma'am Hadia. She is so polite, patient and helpful. Recommended if anyone is looking for a good driving instructor."
+    },
+    {
+      "id": "g-017",
+      "author": "Hafiz Waheed",
+      "rating": 5,
+      "date": "2025-09-22",
+      "text": "Instructor Hadia has amazing stamina for teaching, very confident and professional. My daughter had a great time learning how to drive with her. I strongly recommend this institute especially with Miss Hadia."
+    },
+    {
+      "id": "g-018",
+      "author": "Nayab Sheikh",
+      "rating": 5,
+      "date": "2025-10-05",
+      "text": "Miss Hadia — your teaching style has been both thorough and patient, making me feel comfortable and confident behind the wheel. You explained everything clearly, and I truly appreciated how you took the time with each lesson."
+    },
+    {
+      "id": "g-019",
+      "author": "Mahnoor Naeem",
+      "rating": 5,
+      "date": "2026-01-15",
+      "text": "I recently had the pleasure of taking driving lessons with Mam Hadia — she was very supportive and patient with me. She is an amazing teacher."
+    },
+    {
+      "id": "g-020",
+      "author": "Zahra Firdous",
+      "rating": 5,
+      "date": "2026-01-25",
+      "text": "Took driving lessons from Miss Hadia. Had a wonderful experience. She's firm yet friendly, and most importantly very clear with her instructions."
+    },
+    {
+      "id": "g-021",
+      "author": "Ansa Majid",
+      "rating": 5,
+      "date": "2025-08-12",
+      "text": "They focus on quality of instruction, patience, teaching methods, and ability to build confidence. Great overall learning experience, clean vehicles, and flexible scheduling."
+    },
+    {
+      "id": "g-022",
+      "author": "Iqra Gulzar",
+      "rating": 5,
+      "date": "2025-09-01",
+      "text": "I had an amazing experience with Hadia mam. Great experience of learning how to drive. I recommend to all of you, especially girls who are not comfortable with male instructors."
+    },
+    {
+      "id": "g-023",
+      "author": "Sakina Iqbal",
+      "rating": 5,
+      "date": "2025-10-28",
+      "text": "Haadia Aunty was an amazing teacher. She made sure that I was comfortable throughout and gave so much confidence. She also gave tips on how to drive better throughout our sessions which most instructors don't give."
+    },
+    {
+      "id": "g-024",
+      "author": "Aiman Imran",
+      "rating": 5,
+      "date": "2025-09-18",
+      "text": "Had a very good experience with them. I would definitely recommend it to everyone looking for a driving school and Ms. Hadia was a very good and friendly instructor."
+    },
+    {
+      "id": "g-025",
+      "author": "Asghar Ali",
+      "rating": 5,
+      "date": "2022-06-10",
+      "text": "Excellent service. My experience with Punjab driving school is amazing. My instructor is so polite and kind. Now I am able to drive confidently on roads. The behavior of office staff is so good. Sir Shahzad — best teacher, good driving school.",
+      "ownerResponse": "Thanks for reviews",
+      "ownerResponseDate": "2022-06-15"
+    },
+    {
+      "id": "g-026",
+      "author": "Pakistan Parkour Federation",
+      "rating": 5,
+      "date": "2025-10-12",
+      "text": "My experience with the Punjab Driving Center was awesome. They give their full effort to help you learn driving as soon as possible in a professional way."
+    },
+    {
+      "id": "g-027",
+      "author": "Nadia Faisal",
+      "rating": 5,
+      "date": "2025-09-05",
+      "text": "Madam Hadia from Punjab Driving Center is an outstanding driving instructor. Her professionalism, patience, and ability to instill confidence make her an excellent choice, especially for female learners."
+    },
+    {
+      "id": "g-028",
+      "author": "Ayesha Tariq",
+      "rating": 5,
+      "date": "2024-08-20",
+      "text": "I've had a great experience with Miss Hadia. She imparted confidence in me right from day 1 and I was able to drive my own car just after five days of training. Highly recommended."
+    },
+    {
+      "id": "g-029",
+      "author": "Sabahat Kashif",
+      "rating": 5,
+      "date": "2024-07-01",
+      "text": "I have a great experience with my instructor ma'am Hadia — she's fully trained and skilled. It was a 10 days course but you can solo drive after fewer days when you're ready.",
+      "ownerResponse": "Thanks for reviewing",
+      "ownerResponseDate": "2024-07-05"
+    },
+    {
+      "id": "g-030",
+      "author": "Anam Amjad",
+      "rating": 5,
+      "date": "2024-06-15",
+      "text": "My experience with Punjab driving center was very good. Mam Hadia teaches you driving very professionally and early. She is fearless and makes you fearless while driving. Gives you so much confidence. Highly recommend."
+    },
+    {
+      "id": "g-031",
+      "author": "Ismail Subhani",
+      "rating": 5,
+      "date": "2023-09-10",
+      "text": "I am delighted to share my review for Punjab driving centre and their instructor, Shahmeer. I recently took lessons and it was a truly wonderful experience. He did a great job instructing me in automatic car operation.",
+      "ownerResponse": "Thanks for your reviewing",
+      "ownerResponseDate": "2023-09-12"
+    },
+    {
+      "id": "g-032",
+      "author": "Kanwal Zahra",
+      "rating": 5,
+      "date": "2023-08-22",
+      "text": "I am delighted to share my review for Punjab Driving Center and their instructor, Shahmeer. I had an exceptional experience with him. He taught me both manual and automatic skills with patience.",
+      "ownerResponse": "Thanks for your reviewing",
+      "ownerResponseDate": "2023-08-25"
+    },
+    {
+      "id": "g-033",
+      "author": "Ifrah Sadaqat",
+      "rating": 5,
+      "date": "2023-07-18",
+      "text": "Really good experience with them. Their female madam Hadia gave me driving classes on auto Honda City. She was always on time, professional, and built my confidence step by step.",
+      "ownerResponse": "Thanks for reviewing",
+      "ownerResponseDate": "2023-07-20"
+    },
+    {
+      "id": "g-034",
+      "author": "Tayyaba Rana",
+      "rating": 5,
+      "date": "2023-06-05",
+      "text": "Punjab driving centre is the best driving school in Lahore. Madam Zainab is the best instructor one could have. She teaches very politely and has amazing demonstrating qualities.",
+      "ownerResponse": "Thanks for reviewing",
+      "ownerResponseDate": "2023-06-08"
+    },
+    {
+      "id": "g-035",
+      "author": "Ibraham Akhtar",
+      "rating": 5,
+      "date": "2026-01-05",
+      "text": "My experience with Punjab Driving Center was very amazing — totally recommended."
+    },
+    {
+      "id": "g-036",
+      "author": "Momina Adil",
+      "rating": 5,
+      "date": "2024-09-30",
+      "text": "I had a really good experience. My instructor Hadia was very helpful and taught me well. Highly recommended."
+    },
+    {
+      "id": "g-037",
+      "author": "Mahroos Habib",
+      "rating": 5,
+      "date": "2024-08-08",
+      "text": "My experience with Hadia is wonderful. It was my first time driving and in 10 days of training I am confident enough to drive the car on the main road."
+    },
+    {
+      "id": "g-038",
+      "author": "Hareema Ahmad",
+      "rating": 5,
+      "date": "2024-10-02",
+      "text": "In 10 days I am now able to drive my car around the city. The instructor Hadia was very helpful and it was a very good experience."
+    },
+    {
+      "id": "g-039",
+      "author": "Maliha Zahid",
+      "rating": 5,
+      "date": "2019-03-15",
+      "text": "Best driving school in Lahore. If you really want to learn how to drive then this is the place. Best for ladies, very professional. Mr. Shahzad is an excellent teacher."
+    },
+    {
+      "id": "g-040",
+      "author": "Hammad Iftikhar",
+      "rating": 5,
+      "date": "2019-08-20",
+      "text": "Best training instructor with reasonable prices. Multiple options depending on choice of cars, transmission (manual or automatic), duration of training per day and timings. Highly recommended for everyone."
+    },
+    {
+      "id": "g-041",
+      "author": "Munawar Abbas Sial",
+      "rating": 5,
+      "date": "2020-05-12",
+      "text": "Really fast service with pick and drop services and well maintained vehicles — both manual and automatic cars available at this Punjab coaching center."
+    },
+    {
+      "id": "g-042",
+      "author": "Danish Raza",
+      "rating": 5,
+      "date": "2023-05-20",
+      "text": "One of the best experiences with Punjab driving center in town — professional in dealing and they fulfill their commitments. Cooperative environment to learn. Strongly recommended.",
+      "ownerResponse": "Thanks for reviewing",
+      "ownerResponseDate": "2023-05-22"
+    },
+    {
+      "id": "g-043",
+      "author": "Israr Ahmad",
+      "rating": 5,
+      "date": "2023-04-10",
+      "text": "In just 10 days, this driving school transformed me from a complete beginner to a confident and skilled driver. The instructors' expertise, patience, and personalized approach were instrumental in my rapid progress.",
+      "ownerResponse": "Thanks for your reviewing",
+      "ownerResponseDate": "2023-04-12"
+    },
+    {
+      "id": "g-044",
+      "author": "Kamran Arshad",
+      "rating": 5,
+      "date": "2023-06-18",
+      "text": "It was a great experience. Shahmeer is an outstanding coach. The services are simply amazing. I would definitely recommend Punjab Driving Center to beginners or people who want to polish their driving skills.",
+      "ownerResponse": "Thanks for reviewing",
+      "ownerResponseDate": "2023-06-20"
+    },
+    {
+      "id": "g-045",
+      "author": "Tahira Butt",
+      "rating": 5,
+      "date": "2023-07-02",
+      "text": "I have a great experience throughout all the days of driving. Mam Hadia is a skilled instructor. She taught me each and everything about driving. At first I didn't have confidence — she taught me how to handle the steering and traffic calmly.",
+      "ownerResponse": "Thanks for your reviewing",
+      "ownerResponseDate": "2023-07-05"
+    },
+    {
+      "id": "g-046",
+      "author": "Mehwish Boota",
+      "rating": 5,
+      "date": "2024-07-20",
+      "text": "Mam Hadiya is my instructor — my experience with her is so good. She taught driving in a very good way. Highly recommend."
+    },
+    {
+      "id": "g-047",
+      "author": "Zainab Rashid",
+      "rating": 5,
+      "date": "2023-08-01",
+      "text": "I joined as an amateur and 7 days later I feel like I can drive anywhere with enough practice! Ms. Hadia has been an incredible instructor!",
+      "ownerResponse": "Thanks for your reviewing",
+      "ownerResponseDate": "2023-08-03"
+    },
+    {
+      "id": "g-048",
+      "author": "Saad Sohail Khan",
+      "rating": 5,
+      "date": "2018-11-10",
+      "text": "It's my 8th day with Mr. Shahzad, and they taught me driving from scratch brilliantly — not only driving, but road sense and ethics as well. I highly recommend him to those who want to become perfect drivers."
+    },
+    {
+      "id": "g-049",
+      "author": "Asad Mahboob",
+      "rating": 5,
+      "date": "2025-12-01",
+      "text": "Punjab driving school — best driving school in Lahore. Thank you so much Sir Zain."
+    },
+    {
+      "id": "g-050",
+      "author": "Hira Wasti",
+      "rating": 5,
+      "date": "2024-08-25",
+      "text": "Awesome experience with Miss Hadiya. She trained me very well. Highly appreciated the way of teaching — highly recommended."
+    }
+  ]
+}

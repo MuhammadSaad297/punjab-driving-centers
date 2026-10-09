@@ -1,0 +1,40 @@
+<div class="pricing">
+  <div class="pricing__grid">
+    @for (plan of plans; track plan.id) {
+      <article class="plan" [class.plan--featured]="plan.highlighted">
+        @if (plan.badge) {
+          <span class="plan__badge">{{ plan.badge }}</span>
+        }
+        <h3 class="plan__title">{{ plan.title }}</h3>
+        @if (plan.subtitle) {
+          <p class="plan__subtitle">{{ plan.subtitle }}</p>
+        }
+        <p class="plan__price">
+          <span class="amount">Rs. {{ plan.pricePkr | number: '1.0-0' }}</span>
+          @if (plan.durationDays) {
+            <span class="period">/ {{ plan.durationDays }} day{{ plan.durationDays > 1 ? 's' : '' }}</span>
+          }
+        </p>
+        @if (plan.includesPickDrop) {
+          <p class="plan__pickdrop">Includes pick & drop</p>
+        }
+        <ul class="plan__features">
+          @for (feature of plan.features; track feature) {
+            <li>{{ feature }}</li>
+          }
+        </ul>
+        @if (phone) {
+          <a class="btn btn--primary btn--block" [href]="'tel:' + phone">Book this plan</a>
+        } @else {
+          <a class="btn btn--primary btn--block" routerLink="/contact">Book this plan</a>
+        }
+      </article>
+    }
+  </div>
+  @if (showFootnote) {
+    <p class="pricing__note">
+      Prices for {{ centerName }} · PKR · Confirm pick & drop zones when you call. Edit plans in
+      <code>assets/data/centers.json</code>.
+    </p>
+  }
+</div>

@@ -1,0 +1,19 @@
+@if (toastService.toast(); as item) {
+  <div
+    class="toast"
+    [class.toast--success]="item.kind === 'success'"
+    [class.toast--error]="item.kind === 'error'"
+    role="status"
+    aria-live="polite"
+  >
+    <span class="toast__icon" aria-hidden="true">
+      @if (item.kind === 'success') {
+        ✓
+      } @else {
+        !
+      }
+    </span>
+    <p class="toast__text">{{ item.text }}</p>
+    <button type="button" class="toast__close" (click)="dismiss()" aria-label="Dismiss">×</button>
+  </div>
+}

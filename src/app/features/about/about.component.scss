@@ -1,0 +1,26 @@
+.prose {
+  max-width: 42rem;
+
+  h2 {
+    margin: 2rem 0 0.75rem;
+    color: var(--color-primary);
+    font-size: 1.2rem;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  p {
+    margin: 0;
+    line-height: 1.7;
+    color: var(--color-text);
+  }
+
+  code {
+    font-size: 0.88em;
+    background: var(--color-bg-muted);
+    padding: 0.1rem 0.35rem;
+    border-radius: 4px;
+  }
+}

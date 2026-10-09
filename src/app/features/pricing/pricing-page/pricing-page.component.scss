@@ -1,0 +1,13 @@
+.back-link {
+  margin-top: 2rem;
+
+  a {
+    font-weight: 600;
+    color: var(--color-accent-dark);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

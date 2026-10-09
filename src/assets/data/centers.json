@@ -1,0 +1,269 @@
+{
+  "lastUpdated": "2026-10-08",
+  "centers": [
+    {
+      "id": "pdc-001",
+      "slug": "punjab-driving-center",
+      "name": "Punjab Driving Center",
+      "tagline": "Drive with confidence — automatic & manual training in Lahore",
+      "rating": 4.7,
+      "reviewCount": 654,
+      "address": "Office MZ Floor, Barket Market, 63 Central Plaza Rd, Commercial Area Garden Town, Lahore, 54700, Pakistan",
+      "city": "Lahore",
+      "phone": "+92 300 0978508",
+      "website": "https://punjabdrivingcenter.com",
+      "hours": "Open 24 hours",
+      "plusCode": "G82C+5P Lahore, Pakistan",
+      "badges": ["Women-owned", "Automatic & manual", "Licensed instructors"],
+      "ownerMessage": "Baarish kay mausam mein driving mushkil ho sakti hai. Hamesha in hifaazati asoolon par amal karen aur apnay safar ko mehfooz banayen. Confidence kay sath gaari chalana seekhna chahtay hain? Punjab Driving Center apke lie hazir hai.",
+      "ownerMessageDate": "2026-07-27",
+      "services": [
+        {
+          "id": "auto",
+          "title": "Automatic car training",
+          "description": "Structured lessons from first start to confident city driving, tailored to your pace.",
+          "icon": "auto"
+        },
+        {
+          "id": "manual",
+          "title": "Manual car training",
+          "description": "Clutch control, hill starts, and smooth gear changes with patient, step-by-step coaching.",
+          "icon": "manual"
+        },
+        {
+          "id": "intensive",
+          "title": "10-day intensive courses",
+          "description": "Focused programs for learners who want to complete fundamentals in a short window.",
+          "icon": "calendar"
+        },
+        {
+          "id": "safety",
+          "title": "Safety & rainy-season tips",
+          "description": "Defensive driving habits, visibility, and road awareness for all weather conditions.",
+          "icon": "shield"
+        }
+      ],
+      "pricingPlans": [
+        {
+          "id": "plan-10d",
+          "title": "10-Day Driving Course",
+          "subtitle": "Full foundation program — automatic or manual",
+          "durationDays": 10,
+          "pricePkr": 15000,
+          "includesPickDrop": false,
+          "features": [
+            "Daily structured lesson slots",
+            "City & local road practice",
+            "Parking, signals & lane discipline",
+            "Automatic or manual vehicle"
+          ],
+          "highlighted": false
+        },
+        {
+          "id": "plan-10d-pickdrop",
+          "title": "10-Day Course + Pick & Drop",
+          "subtitle": "Same 10-day program with door-to-door service",
+          "durationDays": 10,
+          "pricePkr": 25000,
+          "includesPickDrop": true,
+          "features": [
+            "Everything in the 10-day course",
+            "Pick & drop within agreed Lahore zones",
+            "Flexible lesson timing",
+            "Ideal for busy professionals & students"
+          ],
+          "highlighted": true,
+          "badge": "Most popular"
+        },
+        {
+          "id": "plan-5d",
+          "title": "5-Day Fast-Track Plan",
+          "subtitle": "Accelerated learning for quick progress",
+          "durationDays": 5,
+          "pricePkr": 10000,
+          "includesPickDrop": false,
+          "features": [
+            "Condensed daily sessions",
+            "Core controls & traffic basics",
+            "Highway / main road introduction",
+            "Best if you already have some practice"
+          ]
+        },
+        {
+          "id": "plan-1d-test",
+          "title": "1-Day License Test Preparation",
+          "subtitle": "Focused mock test & route rehearsal",
+          "durationDays": 1,
+          "pricePkr": 5000,
+          "includesPickDrop": false,
+          "features": [
+            "Test route familiarization",
+            "Parking & maneuver checklist",
+            "Instructor feedback before your exam",
+            "Confidence boost for license day"
+          ],
+          "badge": "Test day ready"
+        }
+      ],
+      "reviewKeywords": [
+        "Madam Hadia",
+        "Instructor Zain",
+        "10-day course",
+        "automatic",
+        "manual",
+        "cooperative faculty",
+        "pick and drop",
+        "female instructor",
+        "humble teacher"
+      ],
+      "reviews": [],
+      "reviewsFile": "assets/data/reviews/punjab-driving-center.json",
+      "relatedCenterIds": ["dds-002", "ads-003", "uds-004"],
+      "featured": true
+    },
+    {
+      "id": "dds-002",
+      "slug": "diwan-driving-school-lahore",
+      "name": "Diwan Driving School Lahore",
+      "tagline": "Trusted Lahore driving school with high learner satisfaction",
+      "rating": 4.9,
+      "reviewCount": 620,
+      "address": "Garden Town, Lahore, Pakistan",
+      "city": "Lahore",
+      "phone": "+92 300 0000000",
+      "website": "https://example.com/diwan",
+      "hours": "Mon–Sat: 8:00 AM – 8:00 PM",
+      "badges": ["Popular choice", "Manual & automatic"],
+      "services": [
+        {
+          "id": "beginner",
+          "title": "Beginner packages",
+          "description": "Foundation skills for first-time drivers in a supportive environment.",
+          "icon": "auto"
+        },
+        {
+          "id": "refresher",
+          "title": "Refresher sessions",
+          "description": "Brush up on motorways, parking, and night driving.",
+          "icon": "shield"
+        }
+      ],
+      "reviewKeywords": ["professional", "on time", "friendly staff"],
+      "reviews": [
+        {
+          "id": "r1",
+          "author": "Learner",
+          "rating": 5,
+          "date": "2026-06-01",
+          "text": "Well-organized lessons and polite staff. Passed my test on the first attempt."
+        }
+      ],
+      "relatedCenterIds": ["pdc-001", "bds-005"],
+      "featured": false
+    },
+    {
+      "id": "ads-003",
+      "slug": "aqsa-driving-school",
+      "name": "Aqsa Driving School",
+      "tagline": "Female-friendly instruction with flexible scheduling",
+      "rating": 4.9,
+      "reviewCount": 229,
+      "address": "Lahore, Pakistan",
+      "city": "Lahore",
+      "phone": "+92 300 0000001",
+      "website": "https://example.com/aqsa",
+      "hours": "Daily: 9:00 AM – 7:00 PM",
+      "badges": ["Women instructors available"],
+      "services": [
+        {
+          "id": "auto",
+          "title": "Automatic training",
+          "description": "Comfort-focused learning path for new drivers.",
+          "icon": "auto"
+        }
+      ],
+      "reviewKeywords": ["flexible timing", "respectful"],
+      "reviews": [],
+      "relatedCenterIds": ["pdc-001", "jds-006"],
+      "featured": false
+    },
+    {
+      "id": "uds-004",
+      "slug": "unique-driving-center",
+      "name": "Unique Driving Center",
+      "tagline": "Small batches, personalized attention",
+      "rating": 5.0,
+      "reviewCount": 94,
+      "address": "Lahore, Pakistan",
+      "city": "Lahore",
+      "phone": "+92 300 0000002",
+      "website": "https://example.com/unique",
+      "hours": "Mon–Fri: 10:00 AM – 6:00 PM",
+      "badges": ["Top rated"],
+      "services": [
+        {
+          "id": "manual",
+          "title": "Manual mastery",
+          "description": "One-on-one manual training for confident control.",
+          "icon": "manual"
+        }
+      ],
+      "reviewKeywords": ["personal attention"],
+      "reviews": [],
+      "relatedCenterIds": ["pdc-001"],
+      "featured": true
+    },
+    {
+      "id": "bds-005",
+      "slug": "best-driving-school",
+      "name": "Best Driving School",
+      "tagline": "Comprehensive road test preparation",
+      "rating": 4.9,
+      "reviewCount": 203,
+      "address": "Lahore, Pakistan",
+      "city": "Lahore",
+      "phone": "+92 300 0000003",
+      "website": "https://example.com/best",
+      "hours": "Open daily",
+      "badges": ["Test prep"],
+      "services": [
+        {
+          "id": "test",
+          "title": "License test prep",
+          "description": "Mock routes and checklist reviews before your official test.",
+          "icon": "shield"
+        }
+      ],
+      "reviewKeywords": ["test prep", "structured"],
+      "reviews": [],
+      "relatedCenterIds": ["dds-002"],
+      "featured": false
+    },
+    {
+      "id": "jds-006",
+      "slug": "jannat-driving-school",
+      "name": "Jannat Driving School",
+      "tagline": "Large instructor team serving all Lahore zones",
+      "rating": 4.7,
+      "reviewCount": 962,
+      "address": "Lahore, Pakistan",
+      "city": "Lahore",
+      "phone": "+92 300 0000004",
+      "website": "https://example.com/jannat",
+      "hours": "Open 24 hours",
+      "badges": ["High volume", "Multiple branches"],
+      "services": [
+        {
+          "id": "fleet",
+          "title": "Fleet training",
+          "description": "Training on well-maintained automatic and manual vehicles.",
+          "icon": "auto"
+        }
+      ],
+      "reviewKeywords": ["availability", "branches"],
+      "reviews": [],
+      "relatedCenterIds": ["pdc-001", "ads-003"],
+      "featured": false
+    }
+  ]
+}

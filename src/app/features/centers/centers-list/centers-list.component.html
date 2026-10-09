@@ -1,0 +1,36 @@
+<section class="page-hero">
+  <div class="container">
+    <h1>Driving centers directory</h1>
+    <p>Compare ratings, services, and locations across Lahore’s leading driving schools.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="filters">
+      <label>
+        Search
+        <input type="search" [(ngModel)]="search" placeholder="Name, area, or keyword…" />
+      </label>
+      @if (cities$ | async; as cities) {
+        <label>
+          City
+          <select [(ngModel)]="cityFilter">
+            @for (city of cities; track city) {
+              <option [value]="city">{{ city }}</option>
+            }
+          </select>
+        </label>
+      }
+    </div>
+
+    @if (centers$ | async; as centers) {
+      <p class="count">{{ filterCenters(centers).length }} center(s) shown</p>
+      <div class="grid">
+        @for (center of filterCenters(centers); track center.id) {
+          <app-center-card [center]="center" />
+        }
+      </div>
+    }
+  </div>
+</section>

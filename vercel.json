@@ -1,0 +1,5 @@
+{
+  "buildCommand": "npm run build:prod",
+  "outputDirectory": "dist/driving-centers-portal/browser",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}

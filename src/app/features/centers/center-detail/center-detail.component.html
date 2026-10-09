@@ -1,0 +1,114 @@
+@if (centerVm$ | async; as vm) {
+  @if (vm.center; as center) {
+  <section class="detail-hero">
+    <div class="container">
+      <a routerLink="/centers" class="back">← All centers</a>
+      <h1>{{ center.name }}</h1>
+      <p class="tagline">{{ center.tagline }}</p>
+      <div class="meta">
+        <app-star-rating [rating]="center.rating" />
+        <span>{{ center.reviewCount }} reviews</span>
+        @for (badge of center.badges; track badge) {
+          <span class="pill">{{ badge }}</span>
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container detail-grid">
+      <div class="main">
+        @if (center.ownerMessage) {
+          <blockquote class="owner-note">
+            <p>{{ center.ownerMessage }}</p>
+            @if (center.ownerMessageDate) {
+              <footer>From the owner · {{ center.ownerMessageDate | date: 'mediumDate' }}</footer>
+            }
+          </blockquote>
+        }
+
+        @if (center.pricingPlans?.length) {
+          <h2 id="pricing">Pricing & course plans</h2>
+          <app-pricing-plans
+            [plans]="center.pricingPlans!"
+            [centerName]="center.name"
+            [phone]="center.phone"
+          />
+        }
+
+        <h2>Services</h2>
+        <div class="services">
+          @for (service of center.services; track service.id) {
+            <article>
+              <h3>{{ service.title }}</h3>
+              <p>{{ service.description }}</p>
+            </article>
+          }
+        </div>
+
+        <h2>Reviews</h2>
+        <app-reviews-section [center]="center" />
+      </div>
+
+      <aside class="sidebar">
+        <div class="info-card">
+          <h2>Visit & contact</h2>
+          <dl>
+            <div>
+              <dt>Address</dt>
+              <dd>{{ center.address }}</dd>
+            </div>
+            <div>
+              <dt>Hours</dt>
+              <dd>{{ center.hours }}</dd>
+            </div>
+            <div>
+              <dt>Phone</dt>
+              <dd><a [href]="'tel:' + center.phone">{{ center.phone }}</a></dd>
+            </div>
+            <div>
+              <dt>Website</dt>
+              <dd><a [href]="center.website" target="_blank" rel="noopener">{{ center.website }}</a></dd>
+            </div>
+            @if (center.plusCode) {
+              <div>
+                <dt>Plus code</dt>
+                <dd>{{ center.plusCode }}</dd>
+              </div>
+            }
+          </dl>
+          <a class="btn btn--primary btn--block" [href]="'tel:' + center.phone">Call now</a>
+          <a
+            class="btn btn--ghost btn--block"
+            [href]="'https://www.google.com/maps/search/?api=1&query=' + encodeUri(center.address)"
+            target="_blank"
+            rel="noopener"
+          >
+            Get directions
+          </a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section section--muted">
+    <div class="container">
+      <h2>People also search for</h2>
+      <div class="grid">
+        @if (related$ | async; as related) {
+          @for (item of related; track item.id) {
+            <app-center-card [center]="item" />
+          }
+        }
+      </div>
+    </div>
+  </section>
+  } @else {
+    <section class="section">
+      <div class="container">
+        <h1>Center not found</h1>
+        <p>We could not find that driving school. <a routerLink="/centers">Browse all centers</a>.</p>
+      </div>
+    </section>
+  }
+}

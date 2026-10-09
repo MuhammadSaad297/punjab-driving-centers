@@ -1,0 +1,28 @@
+<section class="page-hero">
+  <div class="container">
+    <h1>Course pricing & plans</h1>
+    <p>
+      Transparent packages for Punjab Driving Center — 10-day and 5-day courses, plus 1-day license
+      test preparation. Pick & drop available on selected plans.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    @if (center$ | async; as center) {
+      @if (center.pricingPlans?.length) {
+        <app-pricing-plans
+          [plans]="center.pricingPlans!"
+          [centerName]="center.name"
+          [phone]="center.phone"
+        />
+      }
+    } @else {
+      <p>Pricing is not available yet.</p>
+    }
+    <p class="back-link">
+      <a routerLink="/centers/punjab-driving-center">← Back to Punjab Driving Center profile</a>
+    </p>
+  </div>
+</section>

@@ -1,0 +1,80 @@
+<section class="page-hero">
+  <div class="container">
+    <h1>Contact & booking</h1>
+    <p>Request a callback or send us a message — we will get back to you soon.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container contact-grid">
+    <div class="contact-card">
+      <h2>Direct contact</h2>
+      <ul>
+        <li>
+          <strong>Phone</strong>
+          <a [href]="'tel:' + config.supportPhone">{{ config.supportPhone }}</a>
+        </li>
+        <li>
+          <strong>Form inbox</strong>
+          <a [href]="'mailto:' + config.inquiryRecipientEmail">{{ config.inquiryRecipientEmail }}</a>
+        </li>
+        <li>
+          <strong>Business email</strong>
+          <a [href]="'mailto:' + config.supportEmail">{{ config.supportEmail }}</a>
+        </li>
+        <li>
+          <strong>Location</strong>
+          Garden Town, Lahore —
+          <a routerLink="/centers/punjab-driving-center">center profile</a>
+        </li>
+      </ul>
+    </div>
+
+    <form class="form" (ngSubmit)="onSubmit()" #f="ngForm">
+      <h2>Request a callback</h2>
+
+      <label>
+        Full name
+        <input name="name" [(ngModel)]="form.name" required autocomplete="name" />
+      </label>
+      <label>
+        Email
+        <input
+          name="email"
+          type="email"
+          [(ngModel)]="form.email"
+          required
+          email
+          autocomplete="email"
+        />
+      </label>
+      <label>
+        Phone
+        <input name="phone" type="tel" [(ngModel)]="form.phone" required autocomplete="tel" />
+      </label>
+      <label>
+        Vehicle type
+        <select name="vehicle" [(ngModel)]="form.vehicle">
+          <option value="automatic">Automatic</option>
+          <option value="manual">Manual</option>
+          <option value="unsure">Not sure yet</option>
+        </select>
+      </label>
+      <label>
+        Message
+        <textarea name="message" rows="4" [(ngModel)]="form.message"></textarea>
+      </label>
+      <button
+        type="submit"
+        class="btn btn--primary"
+        [disabled]="f.invalid || status === 'sending' || !configReady || !autoSendReady"
+      >
+        @if (status === 'sending') {
+          Sending…
+        } @else {
+          Send inquiry
+        }
+      </button>
+    </form>
+  </div>
+</section>

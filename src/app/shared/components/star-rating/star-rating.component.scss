@@ -1,0 +1,26 @@
+:host {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.stars {
+  display: inline-flex;
+  letter-spacing: 0.05em;
+}
+
+.star {
+  color: var(--color-border);
+  font-size: 1rem;
+  line-height: 1;
+
+  &.filled {
+    color: var(--color-accent);
+  }
+}
+
+.value {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--color-text);
+}

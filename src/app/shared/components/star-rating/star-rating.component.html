@@ -1,0 +1,8 @@
+<span class="stars" [attr.aria-label]="'Rating ' + rating + ' out of 5'">
+  @for (filled of stars; track $index) {
+    <span class="star" [class.filled]="filled">★</span>
+  }
+</span>
+@if (showValue) {
+  <span class="value">{{ rating | number: '1.1-1' }}</span>
+}

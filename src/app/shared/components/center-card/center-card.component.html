@@ -1,0 +1,19 @@
+<article class="card">
+  <div class="card__head">
+    <h3 class="card__title">{{ center.name }}</h3>
+    <div class="card__meta">
+      <app-star-rating [rating]="center.rating" />
+      <span class="reviews">({{ center.reviewCount }} reviews)</span>
+    </div>
+  </div>
+  <p class="card__tagline">{{ center.tagline }}</p>
+  <p class="card__address">{{ center.address }}</p>
+  @if (center.badges.length) {
+    <ul class="badges">
+      @for (badge of center.badges.slice(0, 3); track badge) {
+        <li>{{ badge }}</li>
+      }
+    </ul>
+  }
+  <a class="card__link" [routerLink]="['/centers', center.slug]">View details</a>
+</article>

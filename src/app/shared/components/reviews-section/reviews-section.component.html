@@ -1,0 +1,32 @@
+@if (reviews$ | async; as reviews) {
+  @if (!compact) {
+    <div class="reviews-summary">
+      <app-star-rating [rating]="center.rating" />
+      <span>{{ center.reviewCount }} Google reviews</span>
+      <span class="dot">·</span>
+      <span>{{ reviews.length }} featured on this site</span>
+    </div>
+  }
+
+  @if (center.reviewKeywords.length && !compact) {
+    <div class="keywords">
+      @for (kw of center.reviewKeywords; track kw) {
+        <span>{{ kw }}</span>
+      }
+    </div>
+  }
+
+  <div class="reviews" [class.reviews--compact]="compact">
+    @for (review of reviews.slice(0, visibleCount); track review.id) {
+      <app-review-card [review]="review" />
+    } @empty {
+      <p class="muted">No reviews loaded yet.</p>
+    }
+  </div>
+
+  @if (canShowMore(reviews.length)) {
+    <button type="button" class="btn btn--ghost load-more" (click)="showMore(reviews.length)">
+      Show more reviews ({{ reviews.length - visibleCount }} remaining)
+    </button>
+  }
+}

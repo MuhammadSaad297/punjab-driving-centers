@@ -1,0 +1,90 @@
+<section class="hero">
+  <div class="container hero__inner">
+    <div class="hero__copy">
+      <p class="eyebrow">Lahore · Pakistan</p>
+      <h1>Professional driving training you can trust</h1>
+      <p class="lead">
+        Browse top-rated driving centers, compare services, and start learning with instructors who
+        prioritize safety and confidence — rain or shine.
+      </p>
+      <div class="hero__actions">
+        <a routerLink="/pricing" class="btn btn--primary">View pricing</a>
+        <a routerLink="/centers/punjab-driving-center" class="btn btn--ghost">Punjab Driving Center</a>
+        <a routerLink="/centers" class="btn btn--ghost">View all schools</a>
+      </div>
+    </div>
+    <div class="hero__panel">
+      <h2>Why learners choose us</h2>
+      <ul>
+        <li>Automatic & manual programs</li>
+        <li>Patient, licensed instructors</li>
+        <li>Flexible scheduling — open 24 hours</li>
+        <li>Women-owned center with tailored lessons</li>
+      </ul>
+      <p class="hero__phone">
+        Call now:
+        <a [href]="'tel:' + config.supportPhone">{{ config.supportPhone }}</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section__head">
+      <h2>Featured driving centers</h2>
+      <a routerLink="/centers">See full directory →</a>
+    </div>
+    <div class="grid">
+      @if (featured$ | async; as featured) {
+        @for (center of featured; track center.id) {
+          <app-center-card [center]="center" />
+        }
+      }
+    </div>
+  </div>
+</section>
+
+<section class="section" id="reviews">
+  <div class="container">
+    <div class="section__head">
+      <h2>What learners say</h2>
+      <a routerLink="/centers/punjab-driving-center">654+ Google reviews →</a>
+    </div>
+    <div class="testimonials">
+      @if (testimonialReviews$ | async; as reviews) {
+        @for (review of reviews; track review.id) {
+          <app-review-card [review]="review" />
+        }
+      }
+    </div>
+  </div>
+</section>
+
+<section class="section section--muted" id="pricing">
+  <div class="container">
+    <div class="section__head">
+      <h2>Training plans & pricing</h2>
+      <a routerLink="/pricing">Full pricing page →</a>
+    </div>
+    @if (pricingCenter$ | async; as center) {
+      @if (center.pricingPlans?.length) {
+        <app-pricing-plans
+          [plans]="center.pricingPlans!"
+          [centerName]="center.name"
+          [phone]="center.phone"
+        />
+      }
+    }
+  </div>
+</section>
+
+<section class="section">
+  <div class="container cta-band">
+    <div>
+      <h2>Ready for your first lesson?</h2>
+      <p>Get directions, hours, and instructor highlights before you visit.</p>
+    </div>
+    <a routerLink="/contact" class="btn btn--primary">Contact & book</a>
+  </div>
+</section>
